@@ -23,7 +23,7 @@ import response from '../utils/demo/tableData'
 // make a copy of the data, for the second table
 const response2 = response.concat([])
 
-function Seller() {
+function Users() {
   /**
    * DISCLAIMER: This code could be badly improved, but for the sake of the example
    * and readability, all the logic for both table are here.
@@ -199,4 +199,4 @@ function Seller() {
   )
 }
 
-export default Seller
+export default Users

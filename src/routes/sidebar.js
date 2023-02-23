@@ -30,9 +30,9 @@ const routes = [
   //   name: 'Cards',
   // },
   {
-    path: '/app/sales',
+    path: '/app/users',
     icon: <AiOutlineShoppingCart/>,
-    name: 'Sales',
+    name: 'users',
   },
   // {
   //   path: '/app/buttons',
