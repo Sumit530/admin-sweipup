@@ -14,6 +14,8 @@ import RoundIcon from '../components/RoundIcon'
 import response from '../utils/demo/tableData'
 import SectionTitle from '../components/Typography/SectionTitle'
 import {AiFillEye} from "react-icons/ai"
+import {AiOutlinePlus} from "react-icons/ai"
+import {FaDollarSign} from "react-icons/fa"
 import {
   TableBody,
   TableContainer,
@@ -57,9 +59,9 @@ function Dashboard() {
   return (
     <>
       <PageTitle>Home</PageTitle>
-      <Button layout="link" size="icon" aria-label="Edit" className='border-none bg-transparent absolute '>
-                      <CgRemove className="w-5 h-5 border-none" aria-hidden="true" />
-                    </Button>
+      {/* <Button style={{right:400,bottom:20}} layout="link" size="icon" aria-label="Edit" className='rounded-full w-20 h-20  bottom-0 bg-blue-500  absolute '>
+                      < AiOutlinePlus className="w-5 h-5 border-none text-white text-3xl " aria-hidden="true" />
+                    </Button> */}
       {/* <!-- Cards --> */}
       <div className="grid gap-4 mb-8 md:grid-cols-2 xl:grid-cols-4">
         <InfoCard title="Total Users" value="6389">
@@ -89,7 +91,7 @@ function Dashboard() {
         </InfoCard>
         <InfoCard title="Ads Watch" value="1260">
           <RoundIcon
-            icon={GoReport}
+            icon={FaDollarSign}
             iconColorClass="text-teal-100 dark:text-teal-100"
             bgColorClass="bg-teal-400 dark:bg-teal-500"
             className="mr-4"
